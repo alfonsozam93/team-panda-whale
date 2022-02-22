@@ -11,6 +11,8 @@ const pool = new Pool({
   connectionString: PG_URI
 });
 
+//hi isabelle was here :)
+
 // // connection of database with the following schema: 
 // CREATE TABLE ticket_Table (
 //   _id       SERIAL PRIMARY KEY,
