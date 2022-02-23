@@ -13,6 +13,7 @@ ticketController.getTickets = (req, res, next) => {
   db.query(query)
     .then((response) => {
       res.locals.tickets = response.rows;
+      console.log(res.locals.tickets)
       return next();
     })
     .catch((err) => {
